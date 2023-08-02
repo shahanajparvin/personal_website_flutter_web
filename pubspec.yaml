@@ -1,0 +1,48 @@
+name: personal_website
+description: A Personal Portfolio Website
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.20
+  auto_size_text: ^3.0.0
+  font_awesome_flutter: ^10.1.0
+  auto_animated: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/project_data.json
+  fonts:
+    - family: Calibre
+      fonts:
+        - asset: fonts/Calibre-Light.ttf
+        - asset: fonts/Calibre-LightItalic.ttf
+        - asset: fonts/Calibre-Medium.ttf
+        - asset: fonts/Calibre-MediumItalic.ttf
+        - asset: fonts/Calibre-Regular.ttf
+        - asset: fonts/Calibre-RegularItalic.ttf
+        - asset: fonts/Calibre-Semibold.ttf
+        - asset: fonts/Calibre-SemiboldItalic.ttf
+    - family: SFMono
+      fonts:
+        - asset: fonts/SFMono-Medium.ttf
+        - asset: fonts/SFMono-MediumItalic.ttf
+        - asset: fonts/SFMono-Regular.ttf
+        - asset: fonts/SFMono-RegularItalic.ttf
+        - asset: fonts/SFMono-Semibold.ttf
+        - asset: fonts/SFMono-SemiboldItalic.ttf
