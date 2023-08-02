@@ -1,16 +1,11 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:personal_website/data/keys.dart';
 import 'package:personal_website/data/text.dart';
-import 'package:personal_website/data/url.dart';
 import 'package:personal_website/utils/theme.dart';
 import 'package:personal_website/widgets/fade_animation.dart';
-import 'package:personal_website/widgets/recent_tech.dart';
-import 'package:personal_website/widgets/responsive_widget.dart';
 import 'package:personal_website/widgets/section_title.dart';
 import 'package:personal_website/widgets/slide_animation.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class AboutMe extends StatefulWidget {
   const AboutMe({super.key});

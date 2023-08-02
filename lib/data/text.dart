@@ -187,9 +187,6 @@ class WorkData {
   static const binate = "Binate Solutions Ltd";
   static const divineIt = "Divine IT Limited";
   static const flutterlover= "FlutterLover";
-  static const mule = "Mule";
-  static const pennState = "Penn State";
-  static const volvo = "Volvo";
 
   // Titles
   static const flutterDeveloper = "Senior Flutter Developer";
