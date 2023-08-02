@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/putulputul/personal_website_flutter/assets/17999879/a8035a10-5878-4932-8343-f7796241a7b6" width="100" />
+  <img alt="Logo" src="https://github.com/putulputul/personal_website_flutter/assets/17999879/c1af06d6-0762-4dcf-b6d1-f3c1bda5881f"/>
 </div>
 <h1 align="center">
   <a href="https://shahanaj-parvin.firebaseapp.com" target="_blank">shahanajparvin.com</a>
