@@ -10,110 +10,150 @@
   This is a sample GitHub repository for a WooCommerce Flutter app that utilizes REST API and Bloc pattern for state management.
 </p>
 
-## Overview
+<h2>Overview</h2>
 
-<p align="center">
+<p>
   This app demonstrates how to build a cross-platform mobile application using Flutter to interact with the WooCommerce API and manage state with the Bloc pattern. It allows users to browse products, add them to the cart, and make purchases through the WooCommerce online store.
 </p>
 
-## Features
+<h2>Features</h2>
 
-- Product listing: Display a list of products fetched from the WooCommerce API.
-- Product details: Show detailed information about a selected product.
-- Add to cart: Allow users to add products to their shopping cart.
-- Cart management: Users can view and modify the contents of their shopping cart.
-- Checkout: Provide a seamless checkout experience using the WooCommerce API.
+<ul>
+  <li>Product listing: Display a list of products fetched from the WooCommerce API.</li>
+  <li>Product details: Show detailed information about a selected product.</li>
+  <li>Add to cart: Allow users to add products to their shopping cart.</li>
+  <li>Cart management: Users can view and modify the contents of their shopping cart.</li>
+  <li>Checkout: Provide a seamless checkout experience using the WooCommerce API.</li>
+</ul>
 
-## Installation
+<h2>Installation</h2>
 
-<p align="center">
+<p>
   Follow these steps to set up the project:
 </p>
 
-1. Clone the repository to your local machine.
+<ol>
+  <li>Clone the repository to your local machine.</li>
 
-```bash
-git clone https://github.com/your-username/woocommerce-flutter-app.git
-Open the project in your preferred Flutter development environment (Android Studio, VS Code, etc.).
+<pre><code>git clone https://github.com/your-username/woocommerce-flutter-app.git</code></pre>
 
-Install the dependencies by running:
+  <li>Open the project in your preferred Flutter development environment (Android Studio, VS Code, etc.).</li>
 
-bash
-Copy code
-flutter pub get
-Create a new file named config.dart in the lib folder to store your WooCommerce API credentials:
-dart
-Copy code
-// lib/config.dart
+  <li>Install the dependencies by running:</li>
+
+<pre><code>flutter pub get</code></pre>
+
+  <li>Create a new file named <code>config.dart</code> in the <code>lib</code> folder to store your WooCommerce API credentials:</li>
+
+<pre><code>// lib/config.dart
 
 const String baseUrl = 'https://your-woocommerce-store-url.com/wp-json/wc/v3/';
 const String consumerKey = 'YOUR_CONSUMER_KEY';
-const String consumerSecret = 'YOUR_CONSUMER_SECRET';
-Replace YOUR_CONSUMER_KEY and YOUR_CONSUMER_SECRET with your actual WooCommerce API credentials. You can obtain these credentials from your WooCommerce store's admin panel.
+const String consumerSecret = 'YOUR_CONSUMER_SECRET';</code></pre>
 
-How to Use
-<p align="center">
+  <p>Replace <code>YOUR_CONSUMER_KEY</code> and <code>YOUR_CONSUMER_SECRET</code> with your actual WooCommerce API credentials. You can obtain these credentials from your WooCommerce store's admin panel.</p>
+</ol>
+
+<h2>How to Use</h2>
+
+<p>
   This app follows the Bloc pattern for state management, which separates the business logic from the UI. The app's main components are organized as follows:
 </p>
-Models: Contains the data models used in the app, such as Product, CartItem, etc.
 
-Providers: Contains the ProductProvider and CartProvider classes responsible for handling API calls and managing state related to products and the shopping cart.
+<ul>
+  <li><strong>Models</strong>: Contains the data models used in the app, such as <code>Product</code>, <code>CartItem</code>, etc.</li>
+  <li><strong>Providers</strong>: Contains the <code>ProductProvider</code> and <code>CartProvider</code> classes responsible for handling API calls and managing state related to products and the shopping cart.</li>
+  <li><strong>Blocs</strong>: Contains the <code>ProductBloc</code> and <code>CartBloc</code> classes that handle the business logic and interact with the providers.</li>
+  <li><strong>Screens</strong>: Contains the different screens of the app, such as the product listing screen, product details screen, and cart screen.</li>
+  <li><strong>Widgets</strong>: Contains various reusable widgets used throughout the app.</li>
+</ul>
 
-Blocs: Contains the ProductBloc and CartBloc classes that handle the business logic and interact with the providers.
+<p>
+  Please refer to the code and documentation in each file to understand how the different components work together.
+</p>
 
-Screens: Contains the different screens of the app, such as the product listing screen, product details screen, and cart screen.
+<h2>Contributing</h2>
 
-Widgets: Contains various reusable widgets used throughout the app.
-
-Please refer to the code and documentation in each file to understand how the different components work together.
-
-Contributing
-<p align="center">
+<p>
   Contributions to this project are welcome! Feel free to open issues for bugs or feature requests. If you'd like to contribute code, please fork the repository and create a pull request.
 </p>
-License
-<p align="center">
+
+<h2>License</h2>
+
+<p>
   This project is licensed under the <a href="LICENSE">MIT License</a>.
 </p>
-Acknowledgments
-Thanks to the <a href="https://woocommerce.com/">WooCommerce</a> team for providing a powerful API to build e-commerce applications.
-The architecture and patterns used in this app are inspired by various open-source projects and online resources.
-Contact
-<p align="center">
+
+<h2>Acknowledgments</h2>
+
+<p>
+  Thanks to the <a href="https://woocommerce.com/">WooCommerce</a> team for providing a powerful API to build e-commerce applications.
+  The architecture and patterns used in this app are inspired by various open-source projects and online resources.
+</p>
+
+<h2>Contact</h2>
+
+<p>
   If you have any questions or need assistance, feel free to contact the project owner at your-email@example.com.
 </p>
+
 <div align="center">
   <img alt="Screenshot" src="screenshot.png" width="600">
 </div>
-Screenshots
+
+<h2>Screenshots</h2>
+
 <div align="center">
   <img alt="Screenshot 1" src="screenshots/screenshot1.png" width="200">
   <img alt="Screenshot 2" src="screenshots/screenshot2.png" width="200">
   <!-- Add more screenshots here -->
 </div>
-🛠️ Tech Stack
-Flutter
-REST API
-Bloc pattern
-📚 Resources
-Here are some useful resources to get started with Flutter, REST API, and Bloc:
 
-Flutter Documentation
-REST API Tutorial
-Bloc Library
-🤝 How to Contribute
-We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
+<h2>Tech Stack</h2>
 
-Fork the repository on GitHub.
-Create a new branch from the main branch.
-Make your changes and commit them.
-Push your changes to your forked repository.
-Submit a pull request to the main branch of this repository.
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<ul>
+  <li>Flutter</li>
+  <li>REST API</li>
+  <li>Bloc pattern</li>
+</ul>
 
-📧 Contact
-For any inquiries or questions, you can reach us at your-email@example.com.
+<h2>Resources</h2>
+
+<p>
+  Here are some useful resources to get started with Flutter, REST API, and Bloc:
+</p>
+
+<ul>
+  <li><a href="https://flutter.dev/docs" target="_blank">Flutter Documentation</a></li>
+  <li><a href="https://www.restapitutorial.com/" target="_blank">REST API Tutorial</a></li>
+  <li><a href="https://pub.dev/packages/flutter_bloc" target="_blank">Bloc Library</a></li>
+</ul>
+
+<h2>How to Contribute</h2>
+
+<p>
+  We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
+</p>
+
+<ol>
+  <li>Fork the repository on GitHub.</li>
+  <li>Create a new branch from the <code>main</code> branch.</li>
+  <li>Make your changes and commit them.</li>
+  <li>Push your changes to your forked repository.</li>
+  <li>Submit a pull request to the <code>main</code> branch of this repository.</li>
+</ol>
+
+<h2>License</h2>
+
+<p>
+  This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.
+</p>
+
+<h2>Contact</h2>
+
+<p>
+  For any inquiries or questions, you can reach us at your-email@example.com.
+</p>
 
 <div align="center">
   <p>Powered by <a href="https://flutter.dev" target="_blank">Flutter</a></p>
