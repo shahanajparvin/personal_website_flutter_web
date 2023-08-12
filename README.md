@@ -1,6 +1,5 @@
 <div align="center">
   <img alt="Logo" src="https://github.com/putulputul/personal_website_flutter/assets/17999879/c1af06d6-0762-4dcf-b6d1-f3c1bda5881f" width="80" />
-
 </div>
 <h1 align="center">
   <a href="https://shahanaj-parvin.firebaseapp.com" target="_blank">shahanajparvin.com</a>
@@ -8,6 +7,8 @@
 <p align="center">
   A personal portfolio website built using <a href="https://flutter.dev" target="_blank">Flutter</a> and hosted with <a href="https://firebase.google.com" target="_blank">Firebase</a>
 </p>
+
+<img width="1166" alt="Screenshot 2023-08-12 at 4 21 23 PM" src="https://github.com/shahanajparvin/personal_website_flutter/assets/17999879/33864494-e029-4df3-b538-48ae99e9d7fd">
 
 
 
