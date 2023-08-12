@@ -8,10 +8,7 @@
   A personal portfolio website built using <a href="https://flutter.dev" target="_blank">Flutter</a> and hosted with <a href="https://firebase.google.com" target="_blank">Firebase</a>
 </p>
 
-<img width="1166" alt="Screenshot 2023-08-12 at 4 21 23 PM" src="https://github.com/shahanajparvin/personal_website_flutter/assets/17999879/33864494-e029-4df3-b538-48ae99e9d7fd">
-
-
-
+<img alt="Screenshot 2023-08-12 at 4 21 23 PM" src="https://github.com/shahanajparvin/personal_website_flutter/assets/17999879/33864494-e029-4df3-b538-48ae99e9d7fd">
 
 ## 🚀 Building and Running
 
